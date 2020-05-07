@@ -1,1 +1,2 @@
 # BettingAppServer
+This is a Flask server that was created to service an iOS app. The App tracks the sports bets of users over time. This server houses a database, managed using SQLite3, that contains information (scores, the teams invovled, and the dates of games) about the different sports games. The purpose of the server was to store information for the App, so that the app could fetch scores from the server and update the results of games (and therefore bets on those games) in real time. 
